@@ -1,10 +1,6 @@
 
 class hanoi {
-    public static void main(String[] args) {
-        hanoi h = new hanoi();
-        h.hanoi(4,1,3,2);
-        System.out.println(h.w);
-    }
+
 
     /**
      * Using stacks actually moving the information.
