@@ -36,7 +36,7 @@ The Towers of Hanoi is a mathematical puzzle that involves moving a stack of dis
 
 ## Example
 
-```bash
+```
 Enter the number of disks: 3
 
 Move Disc from 1 --> 3
@@ -59,7 +59,3 @@ It took: 7 moves to solve the puzzle
 ## Contributions
 
 Contributions to this program are welcome. If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request on the program's GitHub repository.
-
-## License
-
-This program is provided under the [MIT License](LICENSE). Feel free to modify and distribute it according to the terms of the license.
