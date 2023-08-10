@@ -60,15 +60,18 @@ class hanoi {
      * Using print, just saying what moves to take.
      */
 
+    int numMoves=0;
 
     public void hanoi(int n, int start,int end, int mid){
         if(n==1){
             System.out.println("Move Disc from "+start+" --> "+end+"\n");
+            numMoves++;
         }
         else{
             hanoi((n-1),start,mid,end);
             System.out.println("Move Disc from "+start+" --> "+end+"\n");
             hanoi((n-1),mid,end,start);
+            numMoves++;
         }
 
 
